@@ -1,0 +1,143 @@
+body{
+    background-color: #4499ee;
+}
+h1{
+    font-size: 40px;
+    color: white;
+}
+form{
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    background-color: rgba(165, 189, 233, 0.853);
+    border: 3px solid rgba(2, 2, 2, 0.435);
+    width: 30%;
+    border-radius:12px ;
+    backdrop-filter: blur(48px);
+    left: 35%;
+    position: relative;
+    box-shadow: 0px 4px 9px black ;
+}
+form h2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+form label{
+    gap: 2px;
+    margin: 0px 0px 4px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+form input{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 12px 40px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background:white ;
+    border: 1px solid rgba(2, 2, 2, 0.435);
+    width: 80%;
+    color: black ;
+}
+/* Boton para crear datos */
+.css-button-shadow-border-sliding--black {
+    margin: 10px;
+    min-width: 130px;
+    height: 35px;
+    width: 45px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #333333;
+    z-index: 1;
+    }
+    
+    .css-button-shadow-border-sliding--black:hover:after {
+    width: 100%;
+    left: 0;
+    }
+    .css-button-shadow-border-sliding--black:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #343a40;
+    right: 0;
+    }
+    .css-button-shadow-border-sliding--black:active {
+    top: 2px;
+    }
+
+/* Boton para regresar */
+.css-button-shadow-border-sliding--black2 {
+    font-size: 33px;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(239, 34, 34, 0.5), 7px 7px 20px 0px rgbrgba(112, 3, 3, 0.1)px 4px 5px 0px rgba(226, 28, 28, 0.1);
+    background: #6f1a23;
+    z-index: 1;
+
+    }
+    .css-button-shadow-border-sliding--black2:hover:after {
+    width: 100%;
+    left: 0;
+    }
+    .css-button-shadow-border-sliding--black2:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+    background-color: #e91717;
+    right: 0;
+    }
+    .css-button-shadow-border-sliding--black2:active {
+    top: 2px;
+    }
+
+    /* boton para archivos */
+    
+    .file input{
+        display: none;
+    }
+    .file label{
+        color: white ;
+        display: block;
+        margin-top: 20%;
+        padding: 5px 40px;
+        border: solid 1px #000000;
+        background-color: #333333;
+        cursor: pointer;
+    }

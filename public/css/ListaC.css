@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    position: relative;
+    border: solid   1px black;
+    height: 150px;
+    background-color: #232222;
+}
+
+
+.BotonR{
+    position: relative;
+    top: 50%;
+}
+
+.Titulo{
+    position: relative;
+    margin: 3%;
+    font-size: 50px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+.BotonLo{
+    position: relative;
+    width: 6%;
+    height: 5%;
+    left: 80%;
+    top:0%;
+    text-align: center;
+}
+.BBorrar{
+    border-radius: 100px;
+    padding: 3px;
+}
+
+.BotonLo strong {
+    font-size: 22px;
+}
+.editar{
+    border: .3mm solid black;
+    margin: 3px;
+    
+}
+.editar a{
+    text-decoration: none;
+    color: black;
+}
+
+.css-button-shadow-border-sliding--black {
+    left: 1.2cm;
+    margin: 10px;
+    min-width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 80px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background:#5688ba;
+    z-index: 1;
+
+    }
+    .css-button-shadow-border-sliding--black:hover:after {
+    width: 100%;
+    left: 0;
+    }
+    .css-button-shadow-border-sliding--black:after {
+    border-radius: 5px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px #5688ba, 4px 4px 5px 0px #5688ba;
+    transition: all 0.3s ease;
+    background-color: #5688ba;
+    right: 0;
+    }
+    .css-button-shadow-border-sliding--black:active {
+    top: 2px;
+    }
+
+
+
+    
+.css-button-shadow-border-sliding--black1 {
+    margin: 10px;
+    min-width: 130px;
+    height: 50px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 80px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(250, 1, 1, 0.953), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: rgba(250, 1, 1, 0.953);
+    z-index: 1;
+    
+    
+
+}
+    .css-button-shadow-border-sliding--black1:hover:after {
+    width: 100%;
+    left: 0;
+    }
+
+    .css-button-shadow-border-sliding--black1:after {
+    border-radius: 20px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px #d64e4e, 4px 4px 5px 0px #f02525;
+    transition: all 0.3s ease;
+    background-color:  rgba(250, 1, 1, 0.953);
+    right: 0;
+    }
+    .css-button-shadow-border-sliding--black1:active {
+    top: -2px;
+    }
+
+    .boton{
+        text-decoration: none;
+        color: black;
+        border: solid 1px black;
+    }
+

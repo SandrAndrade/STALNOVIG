@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+body{
+    background-image: url(../images/bg5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Contenedor{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    padding: 150px ;
+    margin: auto;
+    position: absolute;
+    top: -140px;
+    right: 65%;
+}
+
+.caja{
+    width: 100%;
+    height: 950px; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: #2155b6;
+}
+
+.usuario{
+    top: 10%;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: 30%;
+}
+.Nusuario{
+    position:absolute;
+    top: 30%;
+
+}
+
+.Contenedor2{
+    width: 200px;
+    height: 200px;
+    max-width:800px;
+    padding: 150px ;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+}
+.cajam{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 40px;
+    right: -330px;
+    width: 900px;
+    height: 900px;
+    background-color: white; 
+}
+
+.Usuario{
+    border: solid;
+    width: 750px;
+    height: 70px;
+    background-color:white;
+    padding: auto;
+}
+.ID{
+    position: absolute;
+    border: solid;
+    width: 150px;
+    height: 70px;
+    background-color:white;
+    padding: auto;
+    left: 83.3%;
+    top: 0px;
+}
+.Correo{
+    border: solid;
+    width: 900px;
+    height: 70px;
+    background-color:white;
+    padding: auto;
+}
+.Numero{
+    border: solid;
+    width: 900px;
+    height: 70px;
+    background-color:white;
+    padding: auto;
+}
+.Mensaje{
+    border: solid;
+    width: 900px;
+    height: 690px;
+    background-color:white;
+    padding: auto;
+}
+
+.Contenedor3{
+    width: 200px;
+    height: 200px;
+    max-width:800px;
+    padding: 150px ;
+    margin: auto;
+    position: relative;
+    left: 40%;
+    top: 100%;
+}
+.BorrarM{
+    position: absolute;
+    width: 50%;
+    height: 11%;
+    left: 30%;
+    top: 890px;
+    background-color: black;
+}
+.Contenedor4{
+    width: 200px;
+    height: 200px;
+    max-width:800px;
+    padding: 150px ;
+    margin: auto;
+    position: relative;
+    left: 25%;
+    top: 10%;
+}
+.caja2{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 150px;
+    left: 350px;
+}
+.flecha{
+    width: 100px;
+}
+.flecha2{
+    position: relative;
+    width: 100px;
+    top: -104px;
+    right: 1070%;
+    transform: scaleX(-1);
+}
+
+
+
+
+.opcion1{
+    width: 100%;
+    height: 5%;
+    top: 50%;
+    padding: auto;
+    position: inline;
+    position: absolute ;
+
+}
+.opcion1 h3{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+
+.container{
+    position: relative;
+    top: 60%;
+    width: 60%;
+    right: 20%;
+    height: 3%;
+}
+
+.cuarto{
+    font-size: 10px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    outline: none;
+    width: 350px;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background-color: rgb(37, 98, 230);
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px black;
+}
+
+::-webkit-file-upload-button:hover{
+    background-color: rgb(64, 119, 240)
+}
+
+
+
+/*.opcion2{
+    width: 40%;
+    height: 10%;
+    top: 40%;
+    padding: auto;
+    position: block;
+    background-color: white;
+    position: absolute ;
+}
+.opcion2 h3{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.opcion3{
+    width: 40%;
+    height: 10%;
+    top: 55%;
+    padding: auto;
+    position: block;
+    background-color: white;
+    position: absolute ;
+}
+
+.opcion3 h3{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 27%;
+} */
+
+
+@media screen and (max-width: 850px){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .caja{
+        max-width: 800px;
+        height: 80px;
+        width: 800px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja div{
+        margin: 0px;
+        position: absolute;
+    }
+
+
+    /*Formularios*/
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+    .cajam{
+        max-width: 800px;
+        height: 950px;
+        position:absolute;
+        width: 480px;
+        top: 200px;
+        left: -34%;
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .usuario{
+        top: 0%;
+        position: absolute;
+        left: 13%;
+        width: 80px;
+        height: 80px;
+    }
+    .Nusuario{
+        position:absolute;
+        top: 50%;
+        left: 25%;
+    }
+    .Usuario{
+        border: solid;
+        width: 380px;
+        height: 70px;
+        background-color:white;
+        padding: auto;
+    }
+    .ID{
+        position: absolute;
+        border: solid;
+        width: 99px;
+        height: 70px;
+        background-color:white;
+        padding: auto;
+        left: 79.3%;
+        top: 0px;
+    }
+    .Correo{
+        border: solid;
+        width: 480px;
+        height: 70px;
+        background-color:white;
+        padding: auto;
+    }
+    .Numero{
+        border: solid;
+        width: 480px;
+        height: 70px;
+        background-color:white;
+        padding: auto;
+    }
+    .Mensaje{
+        border: solid;
+        width: 480px;
+        height: 740px;
+        background-color:white;
+        padding: auto;
+    }
+
+
+}

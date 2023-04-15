@@ -1,0 +1,110 @@
+body{
+    background: url(../img/portada.jpeg);
+    background-size:cover;
+}
+.fondo{
+    left:0%;
+    top: 0%;
+    position: absolute;
+    height: 99.8%;
+    width: 99.8%;
+    backdrop-filter: blur(15px);
+}
+.contenedor{
+    top: 25%;
+    left:35%;
+    position: absolute;
+
+    height: 50%;
+    width: 30%;
+
+}
+.Formp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.853); */
+    background-color: #F5F5DC;
+    border: 3px solid rgba(2, 2, 2, 0.435);
+    width: 100%;
+    height: 100%;
+    border-radius:12px ;
+    backdrop-filter: blur(48px);
+    position: relative;
+    box-shadow: 0px 4px 9px black ;
+}
+
+.Ti{
+    position: relative;;
+    top: 14%;
+    color: rgb(0, 0, 0) ;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 900;
+}
+.Co{
+    top: 55px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.Formp input{
+    position: relative;
+    top: 55px;
+    right: 13%;
+    margin: 12px;
+    font-size: 20px;
+    padding: 10px 84px;
+    border-radius: 6px;
+    margin-top: 12px;
+    background-color: transparent ;
+    border: 1px solid rgba(0, 0, 0, 0.739);
+    width: 70%;
+    color: rgb(0, 0, 0); 
+}
+
+.Formp input:focus{
+    background-color: rgba(0, 0, 0, 0.06);
+    outline: 2px solid rgba(255, 255, 255, 0.17);
+}
+.ConteneO{
+    height: 50%;
+    margin: 20px;
+}
+.ConteneO a{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    left:33%;
+    top: 90%;
+
+}
+
+.css-button-shadow-border-sliding--black {
+    left: 30%;
+    margin: 10px;
+    min-width: 130px;
+    height: 35px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 80px;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #3b4044;
+    z-index: 1;
+
+    }
+    
+
+
