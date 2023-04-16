@@ -109,7 +109,7 @@
 
         <head>
     <div class="contenedorB">
-        <a href="https://api.whatsapp.com/send?phone="><button class="btn btn--2" >
+        <a href="https://api.whatsapp.com/send?phone=2491172381"><button class="btn btn--2" >
         RESERVAR
         </button></a>
     
@@ -118,31 +118,35 @@
     </body>
 
 
-    <footer>
-        <ul>
-            <li>
-                <center>
-                    <img src="../img/fa.png" height="33" width="28">
-    
-                </center>
-            </li>
-    
-            <li>
-                <center>
-                    <img src="../img/whasap.png" height="33" width="28">
-    
-                </center>
-            </li>
-    
-            <li>
-                <center>
-                    <img src="../img/insta.png" height="33" width="28">
-    
-                </center>
-            </li>
-    
-        </ul>
-    </footer>
+    <footer >
+    <ul>
+        <li >
+            <center>
+            
+            <a href="https://m.facebook.com/profile.php?id=100023937440680" >
+            <img src="img/fa.png" height="33" width="28" >
+            </a>
+            </center>
+        </li>
+
+        <li >
+            <center>
+            <a href="https://api.whatsapp.com/send?phone=2491172381">09
+            <img src="img/whasap.png" height="33" width="28">
+            </a>
+            </center>
+        </li>
+
+        <li >
+            <center>
+            <a href= "https://instagram.com/marrerosyeseniamartinez?igshid=ZDdkNTZiNTM=">
+            <img src="img/insta.png" height="33" width="28">
+            </a>
+            </center>
+        </li>
+
+    </ul>  
+</footer>
 
 
 

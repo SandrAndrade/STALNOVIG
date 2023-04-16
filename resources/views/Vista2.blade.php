@@ -100,9 +100,8 @@
 </div>
 
 <div class="cuerpo">
-    <P class="text" style="line-height: initial;">Nuestra estrategia es desarrollar conjuntos habitacionales dentro de
-        la 
-        ciudad, cerca de todos los servicios en generral.
+    <P class="text" style="line-height: initial;">Nuestra estrategia es desarrollar conjuntos habitacionales
+    <br> dentro de la ciudad, cerca de todos los servicios en generral.
     </P>
     <br>
     <b class="negrita">
@@ -156,30 +155,35 @@
 
 </div> -->
 
-<footer>
+
+<footer >
     <ul>
-        <li>
+        <li >
             <center>
-                <img src="img/fa.png" height="33" width="28">
-
+            
+            <a href="https://m.facebook.com/profile.php?id=100023937440680" >
+            <img src="img/fa.png" height="33" width="28" >
+            </a>
             </center>
         </li>
 
-        <li>
+        <li >
             <center>
-                <img src="img/whasap.png" height="33" width="28">
-
+            <a href="https://api.whatsapp.com/send?phone=2491172381">09
+            <img src="img/whasap.png" height="33" width="28">
+            </a>
             </center>
         </li>
 
-        <li>
+        <li >
             <center>
-                <img src="img/insta.png" height="33" width="28">
-
+            <a href= "https://instagram.com/marrerosyeseniamartinez?igshid=ZDdkNTZiNTM=">
+            <img src="img/insta.png" height="33" width="28">
+            </a>
             </center>
         </li>
 
-    </ul>
+    </ul>  
 </footer>
 
 
